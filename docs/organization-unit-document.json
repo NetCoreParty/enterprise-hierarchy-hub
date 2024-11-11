@@ -1,0 +1,45 @@
+{
+  "_id": "e30c4028-dfbf-4262-9344-5f76823d2e04",
+  "name": "Organization Unit Name",
+  "type": "CEO|VP|Department|Manager|Employee",
+  "parent_id": "afe73c30-7a63-4947-8ab8-f0372a92e4c4",
+  "details": {
+    "person": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "position": "Manager"
+    },
+    "department": {
+      "name": "Marketing"
+    }
+  },
+  "subunits": [
+    {
+      "name": "Sub Department/Employee",
+      "type": "Department|Employee",
+      "details": { "": "..." }
+    }
+  ]
+}
+
+// Test data
+{
+  "name": "CEO",
+  "type": "CEO",
+  "parentId": null,
+  "position": "CEO"
+}
+
+{
+  "name": "Sales Department",
+  "type": "Department",
+  "parentId": "ceo-guid-here", // Replace with actual CEO GUID
+  "position": "VP"
+}
+
+{
+  "name": "John Doe",
+  "type": "Employee",
+  "parentId": "sales-department-guid-here", // Replace with actual Sales Department GUID
+  "position": "Manager"
+}

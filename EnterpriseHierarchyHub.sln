@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{322A4CC3-0A7E-442F-8194-C4D4B49998A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F70D0E47-0B46-48F6-9320-F0163C4232CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseHierarchyHub.API", "src\EnterpriseHierarchyHub.API\EnterpriseHierarchyHub.API.csproj", "{7BD376FE-4EF2-4932-AEC0-0AE628891880}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseHierarchyHub.Core", "src\EnterpriseHierarchyHub.Core\EnterpriseHierarchyHub.Core.csproj", "{26F29074-EAA2-41A7-B3CB-DC137AC254A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{39AC6D23-760B-4E22-9C26-58C7BBE704E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D720DE92-236A-4644-9404-311FC200CEA4}"
+	ProjectSection(SolutionItems) = preProject
+		docs\organization-unit-document.json = docs\organization-unit-document.json
+		docs\ToDo.md = docs\ToDo.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseHierarchyHub.Mongo", "src\EnterpriseHierarchyHub.Mongo\EnterpriseHierarchyHub.Mongo.csproj", "{D847EE39-F640-4A84-B79A-213CF67A9171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseHierarchyHub.Core.Tests", "tests\EnterpriseHierarchyHub.Core.Tests\EnterpriseHierarchyHub.Core.Tests.csproj", "{C72AAE8E-8680-4D0A-B12E-87B817024839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BD376FE-4EF2-4932-AEC0-0AE628891880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD376FE-4EF2-4932-AEC0-0AE628891880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD376FE-4EF2-4932-AEC0-0AE628891880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD376FE-4EF2-4932-AEC0-0AE628891880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F29074-EAA2-41A7-B3CB-DC137AC254A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F29074-EAA2-41A7-B3CB-DC137AC254A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F29074-EAA2-41A7-B3CB-DC137AC254A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F29074-EAA2-41A7-B3CB-DC137AC254A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D847EE39-F640-4A84-B79A-213CF67A9171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D847EE39-F640-4A84-B79A-213CF67A9171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D847EE39-F640-4A84-B79A-213CF67A9171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D847EE39-F640-4A84-B79A-213CF67A9171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72AAE8E-8680-4D0A-B12E-87B817024839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72AAE8E-8680-4D0A-B12E-87B817024839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72AAE8E-8680-4D0A-B12E-87B817024839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72AAE8E-8680-4D0A-B12E-87B817024839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BD376FE-4EF2-4932-AEC0-0AE628891880} = {322A4CC3-0A7E-442F-8194-C4D4B49998A6}
+		{26F29074-EAA2-41A7-B3CB-DC137AC254A3} = {322A4CC3-0A7E-442F-8194-C4D4B49998A6}
+		{D847EE39-F640-4A84-B79A-213CF67A9171} = {322A4CC3-0A7E-442F-8194-C4D4B49998A6}
+		{C72AAE8E-8680-4D0A-B12E-87B817024839} = {F70D0E47-0B46-48F6-9320-F0163C4232CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {686FCE43-B7EF-4702-8E31-FCF83F6F562E}
+	EndGlobalSection
+EndGlobal
